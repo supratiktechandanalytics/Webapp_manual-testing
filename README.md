@@ -14,25 +14,7 @@ Functional Testing: Core features like login, sign-up, dashboard navigation, and
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Functional Test Cases</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f4f4f4;
-            font-weight: bold;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-    </style>
+    
 </head>
 <body>
     <h2>Functional Test Cases</h2>
@@ -84,25 +66,6 @@ Functional Testing: Core features like login, sign-up, dashboard navigation, and
 <html lang="en">
 <head>
     <title>UI/UX Test Cases</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f4f4f4;
-            font-weight: bold;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-    </style>
 </head>
 <body>
     <h2>UI/UX Test Cases</h2>
@@ -141,24 +104,7 @@ Functional Testing: Core features like login, sign-up, dashboard navigation, and
 <html lang="en">
 <head>
     <title>Cross-Browser Test Cases</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f4f4f4;
-            font-weight: bold;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
+  
     </style>
 </head>
 <body>
