@@ -83,8 +83,6 @@ Functional Testing: Core features like login, sign-up, dashboard navigation, and
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UI/UX Test Cases</title>
     <style>
         table {
@@ -142,8 +140,6 @@ Functional Testing: Core features like login, sign-up, dashboard navigation, and
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cross-Browser Test Cases</title>
     <style>
         table {
