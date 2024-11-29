@@ -8,18 +8,13 @@ Validate usability, performance, and compatibility aspects.
 Identify and report any defects or issues.
 **3. Scope of Testing**
 Functional Testing: Core features like login, sign-up, dashboard navigation, and live testing.
-UI/UX Testing: Validate user interface elements, design consistency, and navigation.
-Cr<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Cases and Bug Report</title>
+    <title>Functional Test Cases</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -37,13 +32,10 @@ Cr<!DOCTYPE html>
         tr:nth-child(even) {
             background-color: #f9f9f9;
         }
-        tr:hover {
-            background-color: #f1f1f1;
-        }
     </style>
 </head>
 <body>
-    <h2>BrowserStack Test Cases</h2>
+    <h2>Functional Test Cases</h2>
     <table>
         <thead>
             <tr>
@@ -84,19 +76,142 @@ Cr<!DOCTYPE html>
                 </td>
                 <td>Live testing session should start successfully.</td>
             </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Test Cases</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h2>UI/UX Test Cases</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Test Case ID</th>
+                <th>Test Scenario</th>
+                <th>Test Steps</th>
+                <th>Expected Result</th>
+            </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>TC04</td>
-                <td>Verify cross-browser testing</td>
+                <td>Verify homepage responsiveness</td>
                 <td>
-                    1. Open the cross-browser testing page.<br>
-                    2. Enter the website URL.<br>
-                    3. Select multiple browsers and run tests.
+                    1. Open the homepage on desktop, tablet, and mobile devices.
                 </td>
-                <td>Tests should run successfully on the selected browsers.</td>
+                <td>Layout and elements should adjust dynamically to fit screen sizes.</td>
+            </tr>
+            <tr>
+                <td>TC05</td>
+                <td>Verify navigation bar functionality</td>
+                <td>
+                    1. Hover over or click on navigation bar elements.<br>
+                    2. Click each menu option to verify navigation.
+                </td>
+                <td>All menu options should work as expected and navigate to the correct page.</td>
             </tr>
         </tbody>
     </table>
-
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross-Browser Test Cases</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h2>Cross-Browser Test Cases</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Test Case ID</th>
+                <th>Test Scenario</th>
+                <th>Test Steps</th>
+                <th>Expected Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>TC06</td>
+                <td>Verify compatibility on Chrome</td>
+                <td>
+                    1. Open the website in Chrome.<br>
+                    2. Navigate through all core functionalities.
+                </td>
+                <td>Website should load and function without any errors.</td
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Report</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
     <h2>Bug Report</h2>
     <table>
         <thead>
@@ -158,16 +273,3 @@ Cr<!DOCTYPE html>
     </table>
 </body>
 </html>
-oss-Browser Testing: Ensure compatibility across Chrome, Firefox, Safari, Edge, etc.
-Device Testing: Verify functionality on various mobile and desktop devices.
-Performance Testing: Validate load time and responsiveness.
-Regression Testing: Ensure fixes for previous bugs don’t introduce new issues.
-**4. Test Approach**
-Execute manual testing on the BrowserStack website by simulating real-world scenarios.
-Document and report any defects using a bug tracking tool (e.g., Excel or Jira).
-Retest after defects are resolved.
-**5. Test Environment**
-Browsers: Chrome, Firefox, Edge, Safari.
-Devices: Android, iOS, Windows, macOS.
-Tools: BrowserStack Live or devices for manual testing.
-**Test Cases for BrowserStack Website**
