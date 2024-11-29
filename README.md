@@ -10,12 +10,6 @@ Identify and report any defects or issues.
 Functional Testing: Core features like login, sign-up, dashboard navigation, and live testing.
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Functional Test Cases</title>
-    
-</head>
 <body>
     <h2>Functional Test Cases</h2>
     <table>
@@ -64,9 +58,6 @@ Functional Testing: Core features like login, sign-up, dashboard navigation, and
 </html>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>UI/UX Test Cases</title>
-</head>
 <body>
     <h2>UI/UX Test Cases</h2>
     <table>
@@ -102,11 +93,6 @@ Functional Testing: Core features like login, sign-up, dashboard navigation, and
 </html>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Cross-Browser Test Cases</title>
-  
-    </style>
-</head>
 <body>
     <h2>Cross-Browser Test Cases</h2>
     <table>
@@ -129,30 +115,6 @@ Functional Testing: Core features like login, sign-up, dashboard navigation, and
                 <td>Website should load and function without any errors.</td
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bug Report</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f4f4f4;
-            font-weight: bold;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-    </style>
-</head>
 <body>
     <h2>Bug Report</h2>
     <table>
